@@ -37,10 +37,8 @@ public class BusService {
         channel = connection.createChannel();
         channel.exchangeDeclare(EXCHANGE, BuiltinExchangeType.TOPIC, true);
 
-        //for event
         channel.queueDeclare(EVENT_QUEUE, true, false, false, null);
         channel.queueBind(EVENT_QUEUE, EXCHANGE, "trigger-event");
-
         channel.basicConsume(EVENT_QUEUE, true, setupReceivingForEvent());
     }
 

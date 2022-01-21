@@ -13,18 +13,8 @@ Esrc/main/java/co/com/sofka/scrapping/Domain/Generics/EventChange.java,5\c\5ccf
 Osrc/main/java/co/com/sofka/scrapping/Domain/Generics/DomainEventRepository.java,9\8\982563a70daf073e461a152248733fb51ce7fbdf
 w
 Gsrc/main/java/co/com/sofka/scrapping/Domain/Generics/AggregateRoot.java,1\c\1c5660487ca8c8b3ef7ffd0c8cea86e8017b2959
-Ü
-Vsrc/main/java/co/com/sofka/scrapping/Domain/Catalog/Commands/CreateCatalogCommand.java,b\c\bca7733f27ada886610f3598ea1f83c5845506bf
-{
-Ksrc/main/java/co/com/sofka/scrapping/Domain/Catalog/CatalogEventchange.java,f\4\f4f7aac9ecd5f46db27cc50cb607f9a8320b5b94
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 p
 @src/main/java/co/com/sofka/scrapping/Domain/Catalog/Catalog.java,d\a\da6c11ecb1573cc021c4c23d8df3395b753e30ce
-Å
-Qsrc/main/java/co/com/sofka/scrapping/Domain/Catalog/Commands/AddMovieCommand.java,6\5\651674ad2869e769aaa5aee5d865a9109b5caec9
-w
-Gsrc/main/java/co/com/sofka/scrapping/UseCases/CreateCatalogUseCase.java,e\f\efd32ee899b76c63bb05adf398351be676fe5d97
 Ö
 Usrc/main/java/co/com/sofka/scrapping/Infrastructure/Generic/DeserializeException.java,4\7\4781b99dea5213795cc47d7ea4524d8422c30d97
 u
@@ -33,7 +23,5 @@ Esrc/main/java/co/com/sofka/scrapping/Domain/Generics/StoredEvent.java,6\2\6228
 Ssrc/main/java/co/com/sofka/scrapping/Infrastructure/Generic/AbstractSerializer.java,a\0\a08ab38e807165c685d831f8723efeeae2364343
 Ç
 Rsrc/main/java/co/com/sofka/scrapping/Infrastructure/Generic/CommandSerializer.java,3\5\350a9afc8b9c9c136a8e73e9e0eb3d8c85f6ac47
-Ä
-Psrc/main/java/co/com/sofka/scrapping/Infrastructure/Generic/EventSerializer.java,e\a\ea1a961e6bab640c50f76bdbb497362e6901e42c
 Ü
 Vsrc/main/java/co/com/sofka/scrapping/Infrastructure/Generic/StoredEventSerializer.java,2\c\2c48e90e35d3505a05e6d1dd5480afaf903948e8

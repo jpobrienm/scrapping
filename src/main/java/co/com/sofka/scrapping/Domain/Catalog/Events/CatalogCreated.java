@@ -4,18 +4,17 @@ import co.com.sofka.scrapping.Domain.Generics.DomainEvent;
 
 public class CatalogCreated extends DomainEvent {
 
-    private final String id;
+    private final String catalogId;
     private final String name;
 
     public CatalogCreated(String id, String name){
         super("co.com.sofka.scrapping.catalogcreated");
-        this.id = id;
+        this.catalogId = id;
         this.name = name;
     }
 
-    @Override
-    public String getId() {
-        return id;
+    public String getCatalogId() {
+        return catalogId;
     }
 
     public String getName() {

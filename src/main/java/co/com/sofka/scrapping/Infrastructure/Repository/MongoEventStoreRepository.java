@@ -46,6 +46,12 @@ public class MongoEventStoreRepository implements EventStoreRepository {
         Map<String, Object> document = new HashMap<>();
 
         document.put("_id", UUID.randomUUID().toString());
+        document.put("aggregateId", aggregateRootId);
+        document.put("occurredOn", storedEvent.getOccurredOn());
+        document.put("typeName", storedEvent.getTypeName());
+        document.put("eventBody", storedEvent.getEventBody());
+
+        mongoClient.getDatabase("command-saveEvent").getCollection(aggregateName).insertOne(new Document(document));
 
     }
 
