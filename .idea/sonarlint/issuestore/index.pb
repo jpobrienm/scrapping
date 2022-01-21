@@ -19,8 +19,6 @@ Vsrc/main/java/co/com/sofka/scrapping/Domain/Catalog/Commands/CreateCatalogComma
 Ksrc/main/java/co/com/sofka/scrapping/Domain/Catalog/CatalogEventchange.java,f\4\f4f7aac9ecd5f46db27cc50cb607f9a8320b5b94
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-w
-Gsrc/main/java/co/com/sofka/scrapping/Domain/Catalog/Entities/Movie.java,6\e\6ed965843e1254da2f0cc5aa468ede63c4a235c0
 p
 @src/main/java/co/com/sofka/scrapping/Domain/Catalog/Catalog.java,d\a\da6c11ecb1573cc021c4c23d8df3395b753e30ce
 Å
