@@ -1,5 +1,8 @@
 package co.com.sofka.scrapping.Domain.Catalog.Entities;
 
+import co.com.sofka.scrapping.Domain.Generics.DomainEvent;
+
+import java.util.List;
 import java.util.Objects;
 
 public class Movie {

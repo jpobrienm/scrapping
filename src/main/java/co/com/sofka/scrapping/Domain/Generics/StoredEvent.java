@@ -1,8 +1,8 @@
 package co.com.sofka.scrapping.Domain.Generics;
 
-import co.com.sofka.wsscore.infra.generic.DeserializeException;
-import co.com.sofka.wsscore.infra.generic.EventSerializer;
-import co.com.sofka.wsscore.infra.generic.StoredEventSerializer;
+import co.com.sofka.scrapping.Infrastructure.Generic.DeserializeException;
+import co.com.sofka.scrapping.Infrastructure.Generic.EventSerializer;
+import co.com.sofka.scrapping.Infrastructure.Generic.StoredEventSerializer;
 import com.google.gson.Gson;
 
 import java.util.Date;
